@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">My Proto</string>
+    <string name="main_title_app">Salut à toi jeune entrepreneur</string>
+    <string name="main_open_button">OUVERTURE</string>
+    <string name="cv">Moi</string>
+
+</resources>

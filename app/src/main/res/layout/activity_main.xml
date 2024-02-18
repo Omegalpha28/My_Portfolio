@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_200"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/blue_700"
+        android:text="@string/main_title_app"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="@color/blue_700"
+        android:layout_marginTop="-30dp"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/home_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="290dp"
+        android:layout_marginTop="740dp"
+        android:layout_marginEnd="00dp"
+        android:layout_marginBottom="00dp"
+        android:background="@drawable/icon_home" />
+    <Button
+        android:id="@+id/about_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="165dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginEnd="00dp"
+        android:layout_marginBottom="00dp"
+        android:background="@drawable/hmm" />
+    <Button
+        android:id="@+id/parameter_button"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="750dp"
+        android:layout_marginEnd="00dp"
+        android:layout_marginBottom="00dp"
+        android:background="@drawable/parameter" />
+    <Button
+        android:id="@+id/start_button"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginStart="00dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="00dp"
+        android:layout_marginBottom="00dp"
+        android:background="@drawable/start" />
+
+</RelativeLayout>
